@@ -1,5 +1,5 @@
 use ExtUtils::MakeMaker;
-use 5.006;
+use 5.008;
 my $module_file = 'lib/Parse/CPAN/Cached.pm';
 WriteMakefile(
     NAME          => 'Parse::CPAN::Cached',
