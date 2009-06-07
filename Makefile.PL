@@ -13,6 +13,8 @@ WriteMakefile(
         App::Cache            => 0.35,
         Parse::CPAN::Packages => 2.30,
         Parse::CPAN::Authors  => 2.27,
+        Parse::CPAN::Whois    => 0,
+        Test::Most            => 0, # XXX: should really be a build_requires
     },
     META_MERGE      => {
         resources => {
